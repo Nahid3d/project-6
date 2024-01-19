@@ -1,0 +1,48 @@
+@media only screen and (max-width:576px)
+{
+    .nav-title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-title{
+        font-size: 2.5rem;
+        margin-top: 20px;
+
+    }
+    button.left-btn{
+        margin-left: 50px;
+        text-align: center;
+        padding-top :20px ;
+        padding-bottom:20px ;
+        padding-left:100px ;
+        width: 300px;
+
+    }
+
+.container{
+    display: flex;
+    grid-template-columns: repeat(1fr);
+    flex-direction: column-reverse;
+}
+.logo-gallery{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+.logo-container{
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.logo{
+    display: grid;
+    gap: 40px;grid-template-columns: repeat(3,1fr);
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
